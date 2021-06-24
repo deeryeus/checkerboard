@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Creating a Checkerboard
+        </title>
+    </head>
+    <style>
+        .outerbox {
+            background-color: white;
+            height: 480px;
+            width: 480px;
+            border-style: solid;
+            border-width: 5px;
+            border-color: black;
+        }
+
+        .column1 {
+            background-color: red;
+            height: 480px;
+            width: 60px;
+            position: relative;
+        }
+
+        .column2 {
+            background-color: red;
+            height: 480px;
+            width: 60px;
+            position: relative;
+            left: 60px;
+            bottom: 480px;
+        }
+
+        .column3 {
+            background-color: red;
+            height: 480px;
+            width: 60px;
+            position: relative;
+            left: 120px;
+            bottom: 960px;
+        }
+
+        .column4 {
+            background-color: red;
+            height: 480px;
+            width: 60px;
+            position: relative;
+            left: 180px;
+            bottom: 1440px;
+        }
+        
+        .column5 {
+            background-color: red;
+            height: 480px;
+            width: 60px;
+            position: relative;
+            left: 240px;
+            bottom: 1920px;
+        }
+
+        .column6 {
+            background-color: red;
+            height: 480px;
+            width: 60px;
+            position: relative;
+            left: 300px;
+            bottom: 2400px;
+        }
+
+        .column7 {
+            background-color: red;
+            height: 480px;
+            width: 60px;
+            position: relative;
+            left: 360px;
+            bottom: 2880px;
+        }
+
+        .column8 {
+            background-color: red;
+            height: 480px;
+            width: 60px;
+            position: relative;
+            left: 420px;
+            bottom: 3360px;
+        }
+
+        .greysquare {
+            background-color: rgb(177, 174, 174);
+            height: 60px;
+            width: 60px;
+        }
+
+        .greensquare {
+            background-color: rgb(15, 97, 90);
+            height: 60px;
+            width: 60px;
+        }
+
+        .blackcircle {
+            height: 45px;
+            width: 45px;
+            background-color: rgb(34, 30, 30);
+            border-style: solid;
+            border-width: 2px;
+            border-color: black;
+            border-radius: 90px;
+            position: relative;
+            left: 5px;
+            top: 5px;
+        }
+
+        .redcircle {
+            height: 45px;
+            width: 45px;
+            background-color: rgb(151, 33, 33);
+            border-style: solid;
+            border-width: 2px;
+            border-color: black;
+            border-radius: 90px;
+            position: relative;
+            left: 5px;
+            top: 5px;
+        }
+    </style>
+    <body>
+        <h1>
+            Checkers
+        </h1>
+        <div class="outerbox">
+            <div class="column1">
+                <div class="greysquare"></div>
+                <div class="greensquare">
+                    <div class="blackcircle"></div>
+                </div>
+                <div class="greysquare"></div>
+                <div class="greensquare"></div>
+                <div class="greysquare"></div>
+                <div class="greensquare">
+                    <div class="redcircle"></div>
+                </div>
+                <div class="greysquare"></div>
+                <div class="greensquare">
+                    <div class="redcircle"></div>
+                </div>
+            </div>
+
+            <div class="column2">
+                <div class="greensquare">
+                    <div class="blackcircle"></div>
+                </div>
+                <div class="greysquare"></div>
+                <div class="greensquare">
+                    <div class="blackcircle"></div>
+                </div>
+                <div class="greysquare"></div>
+                <div class="greensquare"></div>
+                <div class="greysquare"></div>
+                <div class="greensquare">
+                    <div class="redcircle"></div>
+                </div>
+                <div class="greysquare"></div>
+            </div>
+
+            <div class="column3">
+                <div class="greysquare"></div>
+                <div class="greensquare">
+                    <div class="blackcircle"></div>
+                </div>
+                <div class="greysquare"></div>
+                <div class="greensquare"></div>
+                <div class="greysquare"></div>
+                <div class="greensquare">
+                    <div class="redcircle"></div>
+                </div>
+                <div class="greysquare"></div>
+                <div class="greensquare">
+                    <div class="redcircle"></div>
+                </div>
+            </div>
+
+
+            <div class="column4">
+                <div class="greensquare">
+                    <div class="blackcircle"></div>
+                </div>
+                <div class="greysquare"></div>
+                <div class="greensquare">
+                    <div class="blackcircle"></div>
+                </div>
+                <div class="greysquare"></div>
+                <div class="greensquare"></div>
+                <div class="greysquare"></div>
+                <div class="greensquare">
+                    <div class="redcircle"></div>
+                </div>
+                <div class="greysquare"></div>
+            </div>
+
+            <div class="column5">
+                <div class="greysquare"></div>
+                <div class="greensquare">
+                    <div class="blackcircle"></div>
+                </div>
+                <div class="greysquare"></div>
+                <div class="greensquare"></div>
+                <div class="greysquare"></div>
+                <div class="greensquare">
+                    <div class="redcircle"></div>
+                </div>
+                <div class="greysquare"></div>
+                <div class="greensquare">
+                    <div class="redcircle"></div>
+                </div>
+            </div>
+
+            <div class="column6">
+                <div class="greensquare">
+                    <div class="blackcircle"></div>
+                </div>
+                <div class="greysquare"></div>
+                <div class="greensquare">
+                    <div class="blackcircle"></div>
+                </div>
+                <div class="greysquare"></div>
+                <div class="greensquare"></div>
+                <div class="greysquare"></div>
+                <div class="greensquare">
+                    <div class="redcircle"></div>
+                </div>
+                <div class="greysquare"></div>
+            </div>
+
+            <div class="column7">
+                <div class="greysquare"></div>
+                <div class="greensquare">
+                    <div class="blackcircle"></div>
+                </div>
+                <div class="greysquare"></div>
+                <div class="greensquare"></div>
+                <div class="greysquare"></div>
+                <div class="greensquare">
+                    <div class="redcircle"></div>
+                </div>
+                <div class="greysquare"></div>
+                <div class="greensquare">
+                    <div class="redcircle"></div>
+                </div>
+            </div>
+
+            <div class="column8">
+                <div class="greensquare">
+                    <div class="blackcircle"></div>
+                </div>
+                <div class="greysquare"></div>
+                <div class="greensquare">
+                    <div class="blackcircle"></div>
+                </div>
+                <div class="greysquare"></div>
+                <div class="greensquare"></div>
+                <div class="greysquare"></div>
+                <div class="greensquare">
+                    <div class="redcircle"></div>
+                </div>
+                <div class="greysquare"></div>
+            </div>
+        </div>
+    </body>
+</html>
